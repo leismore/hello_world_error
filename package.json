@@ -1,0 +1,35 @@
+{
+  "name": "hello_world_error",
+  "version": "1.0.0",
+  "description": "A demonstration application showing the usage of `@leismore/lmerror` and `@leismore/response`.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leismore/hello_world_error.git"
+  },
+  "keywords": [
+    "Hello World",
+    "Error Handling",
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "author": "Kyle Chine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leismore/hello_world_error/issues"
+  },
+  "homepage": "https://github.com/leismore/hello_world_error#readme",
+  "dependencies": {
+    "@leismore/lmerror": "^4.0.1",
+    "@leismore/response": "^3.0.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/node": "^12.7.12"
+  }
+}
