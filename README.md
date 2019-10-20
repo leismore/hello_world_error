@@ -1,6 +1,6 @@
 # hello_world_error
 
-A demonstration application showing the usage of [@leismore/lmerror](https://www.npmjs.com/package/@leismore/lmerror) and [@leismore/response](https://www.npmjs.com/package/@leismore/response).
+A demonstration application showing the usage of [@leismore/lmerror](https://www.npmjs.com/package/@leismore/lmerror) and [@leismore/error_handler_last](https://www.npmjs.com/package/@leismore/error_handler_last).
 
 # Installation
 

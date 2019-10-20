@@ -1,7 +1,7 @@
 {
   "name": "hello_world_error",
-  "version": "1.0.0",
-  "description": "A demonstration application showing the usage of `@leismore/lmerror` and `@leismore/response`.",
+  "version": "2.0.0",
+  "description": "A demonstration application showing the usage of `@leismore/lmerror` and `@leismore/error_handler_last`.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/leismore/hello_world_error#readme",
   "dependencies": {
+    "@leismore/error_handler_last": "^1.0.0",
     "@leismore/lmerror": "^4.0.1",
-    "@leismore/response": "^3.0.2",
     "express": "^4.17.1"
   },
   "devDependencies": {
