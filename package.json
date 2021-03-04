@@ -27,7 +27,9 @@
   "dependencies": {
     "@leismore/error_handler_last": "^2.0.0",
     "@leismore/lmerror": "^5.0.1",
-    "express": "^4.17.1"
+    "@leismore/response": "^4.0.0",
+    "express": "^4.17.1",
+    "install": "^0.13.0"
   },
   "devDependencies": {
     "@types/chai": "^4.2.15",
