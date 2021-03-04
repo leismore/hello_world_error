@@ -6,7 +6,10 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-server": "ts-node ./src/index.ts",
+    "start-test": "mocha './test/test.ts'",
+    "test": "start-server-and-test start-server http://localhost:8080 start-test",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
