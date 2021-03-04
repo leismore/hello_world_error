@@ -1,6 +1,7 @@
 # hello_world_error
 
-A demonstration application showing the usage of [@leismore/lmerror](https://www.npmjs.com/package/@leismore/lmerror) and [@leismore/error_handler_last](https://www.npmjs.com/package/@leismore/error_handler_last).
+A demonstration application showing the usage of [@leismore/lmerror](https://www.npmjs.com/package/@leismore/lmerror), [@leismore/error_handler_last](https://www.npmjs.com/package/@leismore/error_handler_last), and [@leismore/response
+TypeScript icon, indicating that this package has built-in type declarations](https://www.npmjs.com/package/@leismore/response).
 
 # Donation
 
@@ -9,6 +10,10 @@ Buy me a coffee via [![PayPal Donation](https://www.paypalobjects.com/en_AU/i/bt
 # Installation
 
 `git clone https://github.com/leismore/hello_world_error.git`
+
+# Test
+
+`npm test`
 
 # TypeScript
 
@@ -22,11 +27,11 @@ tsc
 node ./dist/index.js
 ```
 
-Then open browser and type <http://localhost:3000>
+Then open browser and type <http://localhost:8080> or <http://localhost:8080/error>
 
 # License
 
-MIT
+GNU Affero General Public License v3.0
 
 # Authors
 
