@@ -1,6 +1,6 @@
 {
   "name": "hello_world_error",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A demonstration application showing the usage of `@leismore/lmerror` and `@leismore/error_handler_last`.",
   "private": true,
   "main": "./dist/index.js",
@@ -31,8 +31,7 @@
     "@leismore/error_handler_last": "^2.0.0",
     "@leismore/lmerror": "^5.0.1",
     "@leismore/response": "^4.0.0",
-    "express": "^4.17.1",
-    "install": "^0.13.0"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "@types/chai": "^4.2.15",
