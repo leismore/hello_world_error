@@ -1,6 +1,6 @@
 import express = require('express');
-import { Response as Resp, ResData as RespData } from '@leismore/response';
-import {LMError, Err as LMErrorErr, Res as LMErrorRes} from '@leismore/lmerror';
+import { LMResponse as Resp, LMResponseData as RespData } from '@leismore/response';
+import {LMError, LMErrorErr, LMErrorRes} from '@leismore/lmerror';
 import {error_handler_last} from '@leismore/error_handler_last';
 
 const app  = express();
